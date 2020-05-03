@@ -61,7 +61,6 @@ public class RailwaysServiceImpl implements RailwaysService {
 			System.out.println(bean);
 		}
 	}
-
 	@Override
 	public void reservationChart(ArrayList user_Ticket, Long pnr) {
 		System.out.println("Reservation Chart:- \n");

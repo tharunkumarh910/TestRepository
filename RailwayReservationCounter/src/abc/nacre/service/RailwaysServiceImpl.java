@@ -63,7 +63,7 @@ public class RailwaysServiceImpl implements RailwaysService {
 	}
 	@Override
 	public void reservationChart(ArrayList user_Ticket, Long pnr) {
-		System.out.println("Reservation Chart:- \n");
+		System.out.println("Displaying Reservation Chart:- \n");
 		if(pnr == null) {
 			System.out.println();
 			System.out.println("There Are No Reservations Yet");
@@ -71,7 +71,7 @@ public class RailwaysServiceImpl implements RailwaysService {
 		}
 		else {
 			
-			System.out.println("Train name" + "\t\t" +"Traveller Name" + "\t\t" + "PNR No" + "\t\t"+"Travelling Date" + "\t\t" + "Source Station" + "\t\t" + "Destination Station");
+			System.out.println("Passenger Mobile Number" + "\t\t" +"Passenger Name" + "\t\t" + "PNR No" + "\t\t"+"Travelling Date" + "\t\t" + "Source Station" + "\t\t" + "Destination Station");
 			Iterator itr = user_Ticket.iterator();
 			while (itr.hasNext()) {
 				TicketBean bean = (TicketBean) itr.next();
